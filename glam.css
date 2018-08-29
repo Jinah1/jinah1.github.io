@@ -19,13 +19,21 @@ ul{
     padding:0;
 }
 
+.button_1{
+    height: 38px;
+    background:#34efb1;
+    border:0;
+    padding-left: 20px;
+    padding-right:20px;
+}
+
 /* Header */
 header{
     background:#35424a;
     color:#ffffff;
     padding-top: 30px;
     min-height: 70px;
-    border-bottom:#e8491d 3px solid;
+    border-bottom:#34efb1 3px solid;
 }
 
 header a{
@@ -55,7 +63,7 @@ header nav{
 }
 
 header .highlight, header .current a{
-    color: #e8491d;
+    color: #34efb1;
     font-weight: bold;
 }
 
@@ -67,7 +75,7 @@ header a:hover{
 /* showcase */
 #showcase{
     min-height: 400px;
-    background:url('./img/rip.jpg') no-repeat 0 -400px;
+    background:url('./img/landing_cover.jpeg') no-repeat  0 -100px;
     text-align:center;
     color: #ffffff;
 }
@@ -88,16 +96,48 @@ header a:hover{
     background: #35424a;
 }
 
+/*newsletter*/
 
+#newsletter h1{
+    float:left;
+}
 
+#newsletter form{
+    float:right;
+    margin-top:15px;
+}
 
+#newsletter input[type="email"]{
+    padding:4px;
+    height: 25px;
+    width: 250px;
+}
 
+/*boxes*/
 
+#boxes{
+    margin-top:20px;
+}
 
+#boxes .box{
+    float:left;
+    text-align: center;
+    width: 30%;
+    padding:10px;
+}
 
+#boxes .box img{
+    width:300px;
+    height: 200px;
+}
 
-
-
+footer{
+    padding:20px;
+    margin-top:20px;
+    color:#ffffff;
+    background-color: #34efb1;
+    text-align:center;
+}
 
 
 
