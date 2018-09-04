@@ -84,6 +84,7 @@ header a:hover{
 #showcase{
     min-height: 400px;
     background:url('./img/landing_cover.jpeg') no-repeat  0 -100px;
+    background-size: cover;
     text-align:center;
     color: #ffffff;
 }
