@@ -34,6 +34,7 @@ def Explore():
     print("As the night goes on, more and more people take out their tubas and begin having battles and tournaments.")
     print("After having the best night of your life, you along with your new friends went home happily.")
     print("The End")
+    exit3=input("Press enter to exit the game.")
 
 def Play():
     print("Arj invites you to play party games with him, and you don't have any reason to argue. You feel like you've missed something, but it's probably not important.")
@@ -50,10 +51,12 @@ def win():
     print("You miraculously defeat Arj through a hard fought battle, and must now execute him. It is a difficult thing to do, but you have no choice as it was a bet. After taking his life, you decide to take all of his wealth for yourself.")
     print("Using the wealth to hire elite criminals from around the globe, you take over the U.S. government and become a dictator.")
     print("The End")
+    exit2=input("Press enter to exit the game.")
     
 def lose():
     print("Arj's skills are much past your level causing you to be defeated. Arj, with pity for his good friend, kills you to fulfil the bet.")
     print("After entering the afterlife, you come back to haunt Arj forever in his dreams.")
     print("The End")
+    exit=input("Press enter to exit the game.")
 
 beginning()
